@@ -6,4 +6,4 @@ s3_prefix = "zip"
 region = "eu-west-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
-Parameter overrides = {'MyParam': 'MyParamValue'}
+parameter_overrides = "MyParam=\"MyParamValue\" VpcAllowedSecurityGroupIdParameter=\"sg-0000111122223333\" VpcEndpointSubnetIdsParameter=\"subnet-0000111122223333 \""
