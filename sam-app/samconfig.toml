@@ -6,3 +6,4 @@ s3_prefix = "zip"
 region = "eu-west-1"
 confirm_changeset = false
 capabilities = "CAPABILITY_IAM"
+Parameter overrides = {'MyParam': 'MyParamValue'}
