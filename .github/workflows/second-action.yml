@@ -4,13 +4,13 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Get code
-        uses: actions/checkout@v3
-      - name: Install Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'
-          cache: 'pip' # caching pip dependencies
-       - name: Update Pip Dependencies
-         run: pip install -r requirements.txt
+        - name: Get code
+          uses: actions/checkout@v3
+        - name: Install Python
+          uses: actions/setup-python@v4
+          with:
+              python-version: '3.10'
+              cache: 'pip' # caching pip dependencies
+        - name: Update Pip Dependencies
+          run: pip install -r requirements.txt
   
