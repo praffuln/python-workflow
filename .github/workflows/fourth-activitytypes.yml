@@ -1,0 +1,8 @@
+name: fourth-activitytypes-Action
+on: [push, workflow_dispatch]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+        - name: Get context object
+          run: echo "${{toJSON(github)}}"
