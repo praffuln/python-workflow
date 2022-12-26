@@ -1,5 +1,7 @@
 name: fourth-activitytypes-Action
-on: [push, workflow_dispatch]
+on:
+  pull_request:
+    type
 jobs:
   test:
     runs-on: ubuntu-latest
