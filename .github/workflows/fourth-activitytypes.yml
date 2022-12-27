@@ -1,7 +1,10 @@
 name: fourth-activitytypes-Action
 on:
   pull_request:
-    type
+    types:
+     - opened
+     - closed
+  workflow_dispatch:
 jobs:
   test:
     runs-on: ubuntu-latest
